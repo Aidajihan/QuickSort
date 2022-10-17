@@ -129,6 +129,8 @@ namespace QuickSort
             //Acept array elements
             myList.display();
             //Calling the sorting function
+            //frist call to Quick sort Alogarithm
+            myList.q_sort(0, myList.getSize()- 1);
         }
     }
 }
