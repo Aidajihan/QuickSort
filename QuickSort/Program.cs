@@ -67,7 +67,13 @@ namespace QuickSort
 
             while (i <= j)
             {
-               
+                //Search for an elements greather than pivot
+                while ((arr[i] <= pivot) && (i <= high))
+                {
+                    i++;
+                    cmp_count++;
+                }
+                cmp_count++;
             }
 
            
