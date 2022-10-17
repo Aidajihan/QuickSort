@@ -128,6 +128,7 @@ namespace QuickSort
             Program myList = new Program();
             //Acept array elements
             myList.display();
+            //Calling the sorting function
         }
     }
 }
